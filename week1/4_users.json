@@ -1,0 +1,25 @@
+{
+    "users": [
+        {
+            "id": "u1",
+            "name": "John Doe",
+            "email": "example@gmail.com",
+            "friends": ["u2", "u3"],
+            "books": ["b1", "b2"]
+        },
+        {
+            "id": "u2",
+            "name": "Jane Doe",
+            "email": "example2@gmail.com",
+            "friends": ["u1"],
+            "books": ["b1"]
+        },
+        {
+            "id": "u3",
+            "name": "John Smith",
+            "email": "example3@gmail.com",
+            "friends": ["u1"],
+            "books": ["b2"]
+        }
+    ]
+}
