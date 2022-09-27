@@ -1,0 +1,6 @@
+{
+    "mongoConfig": {
+      "serverUrl": "TODO: replace this: mongodb+srv://cluster0.miex7.mongodb.net/myFirstDatabase",
+      "database": "trip_planner"
+    }
+}
