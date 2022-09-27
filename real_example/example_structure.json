@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "_id": "something",
+            "username": "user1",
+            "password": "password1",
+            "trips": ["trip1"]
+        }
+    ],
+    "trips": [
+        {
+            "_id": "trip1",
+            "destination": "Portugal",
+            "startDate": "2023-01-01",
+            "endDate": "2023-01-10",
+            "flights": 2,
+            "hotel_stays": 1,
+            "activities": ["activity1"]
+        }
+    ],
+    "activities": [
+        {
+            "_id": "activity1",
+            "type": "sightseeing",
+            "info": "Visit the castle"
+        }
+    ]
+}

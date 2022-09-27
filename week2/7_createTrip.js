@@ -27,7 +27,7 @@ const createTrip = async(userId, destination, startDate, endDate) => {
     if(insertInfo.insertedCount === 0) throw new Error("Could not add trip!");
 
     // use the insertedId to get the new trip object
-    const createdTrip = await trips.findOne({ _id: insertInfo.insertedId });
+    const createdTrip = await tripList.findOne({ _id: insertInfo.insertedId });
     // but dont return yet! we need to add the trip to the user's trips array
 
     // get the users collection

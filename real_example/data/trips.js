@@ -66,7 +66,7 @@ const createTrip = async(userId, destination, startDate, endDate) => {
     let insertInfo = await tripList.insertOne(newTrip);
     if(insertInfo.insertedCount === 0) throw new Error("Could not add trip!");
 
-    const createdTrip = await trips.findOne({ _id: insertInfo.insertedId });
+    const createdTrip = await tripList.findOne({ _id: insertInfo.insertedId });
 
     let userList = await users();
     let user = await userList.findOne({ _id: ObjectId(userId) });

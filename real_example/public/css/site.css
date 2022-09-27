@@ -1,0 +1,46 @@
+
+
+.index_body {
+    background-image: url('/public/images/background_image.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: 50%;
+    height: 100vh;
+}
+
+.index_title {
+    color: #B1340F;
+}
+
+.error {
+    margin-top: 10%;
+    color: red;
+    background-color: white;
+    border-radius: 10px;
+}
+
+td a {
+    color: black;
+    text-decoration: none;
+}
+
+.success {
+    margin-top: 10%;
+    color: green;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.btn-circle {
+    width: 40px;
+    height: 40px;
+    padding: 6px 0px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+div.col-12 a {
+    text-decoration: none;
+} 
